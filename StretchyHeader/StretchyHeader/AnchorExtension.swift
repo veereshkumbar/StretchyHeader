@@ -13,6 +13,8 @@ struct AnchoredConstraints {
     var top, leading, bottom, trailing, width, height: NSLayoutConstraint?
 }
 
+
+//its a extension of view used for handling auto layout anchors
 extension UIView {
     
     func fillSuperview() {
